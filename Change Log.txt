@@ -1,1 +1,2 @@
-9/1/2022: v1.0 released initial launch
+9/1/2022: v1.0 released, initial launch
+9/1/2022: v1.01 released, added !dicklength command
