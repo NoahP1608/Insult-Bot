@@ -1,3 +1,4 @@
 9/1/2022: v1.0 released, initial launch
 9/1/2022: v1.01 released, added !dicklength command
 9/1/2022: v1.02 released, added !randomnumber command
+11/1/2022: v1.03 released added !help command
