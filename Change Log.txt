@@ -3,3 +3,4 @@
 9/1/2022: v1.02 released, added !randomnumber command
 11/1/2022: v1.03 released, added !help command
 14/1/2022: v1.04 released, added !ball command
+15/1/2022: v1.05 released, added !pope command 
