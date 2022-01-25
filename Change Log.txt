@@ -5,3 +5,4 @@
 14/1/2022: v1.04 released, added !ball command
 15/1/2022: v1.05 released, added !pope command 
 15/1/2022: v1.06 released, added !crab command
+25/1/2022: v1.07 released, added !cun command
