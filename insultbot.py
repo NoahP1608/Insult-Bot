@@ -11,14 +11,16 @@ client = discord.Client()
 
 insults = ['Fuck you', 'Get a life']
 
+version = 1.07
+
 
 @client.event
 
 async def on_ready():
    #this is were the bot logs on
 
-  await client.change_presence(activity=discord.Game(name='On v1.04 !help'))
-  print(f'Logged in')
+  await client.change_presence(activity=discord.Game(name='On v1.07 !help'))
+  print(f'Logged in on version',version)
   
 
 
@@ -90,6 +92,16 @@ async def on_message(message):
   if user_message.lower() == '!pope':
     await message.channel.send(file=discord.File('spinning-priest-priest.gif'))
     print(f'!pope command used by {username}')
+
+  
+  if user_message.lower() == '!crab':
+    await message.channel.send(file=discord.File('dreams-dream-stans.gif'))
+    print(f'!crab command used by {username}')
+
+  
+  if user_message.lower() == '!cun':
+    await message.channel.send(file=discord.File('cun.jpg'))
+    print(f'!cun command used by {username}')
 
   
 
