@@ -103,8 +103,13 @@ async def on_message(message):
     await message.channel.send(file=discord.File('cun.jpg'))
     print(f'!cun command used by {username}')
 
-  
 
+  if user_message.lower() == '!deadserver':
+    for i in range(101):
+      await message.channel.send(f'Dead server')
+    print(f'!deadserver command used by {username}')
+  
+  
 #all repl.its are public so i needed to hide the token
 my_secret = os.environ['token']
 client.run(my_secret)
